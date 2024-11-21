@@ -35,3 +35,7 @@ Run the following command to build and start the application:
 
 ```bash
 docker-compose up --build
+```
+
+## Run Vue
+on http://localhost:8081/
