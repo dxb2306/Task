@@ -8,6 +8,12 @@ This project is a web application built using Flask, Vue, PostgreSQL, and Docker
 - View the uploaded files and metadata
 - Display file contents with column details
 
+## Storage Choice
+File Storage
+The application uses a local directory-based file storage system to save uploaded files. 
+Flask's built-in secure_filename and Python's standard file I/O libraries integrate seamlessly with local file storage.
+The uploaded files are stored in the directory specified by the UPLOAD_FOLDER environment variable, which is set to /app/upload_files in this project. This directory is mounted as a volume in the Docker container, ensuring data persistence between container restarts.
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/get-started)
