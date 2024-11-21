@@ -38,4 +38,6 @@ docker-compose up --build
 ```
 
 ## Run Vue
-on http://localhost:8081/
+```bash
+http://localhost:8081/
+```
